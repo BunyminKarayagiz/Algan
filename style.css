@@ -1,0 +1,101 @@
+body{
+    z-index: 2;
+    background-image: url(Resimler/AKINCI.jpg);
+}
+.ustEkran{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 150px;
+    width: 100%;
+}
+.medyaHesapIkonlari{
+    margin-right: 10px;
+    height: 50px;
+}
+.logo{
+    opacity: 0.2;
+    margin-top: 10px;
+    height: 100px;
+    border-radius: 20%;
+    float: left;
+}
+.hesaplarEkranı{
+    position: absolute;
+    bottom: 0px;
+    height: 200px;
+}
+.sayfalar{
+    top: 0px;
+    height: 100px;
+}
+.menu{
+    float: left;
+}
+.menu li{
+    float: left;
+    position: relative;
+}
+.menu li {
+    border-radius: 3    0%;
+    text-decoration: none;
+  
+    border: none;
+  
+    padding: 16px 32px;
+  
+    text-align: center;
+  
+    font-size: 16px;
+  
+    margin: 4px 120px;
+  
+    opacity: 0.6;
+  
+    transition: 0.3s;
+  
+    display: inline-block;
+  
+    cursor: pointer;
+  }
+  .menu li :hover{
+    padding: 10px 32px;
+    background-color:cornflowerblue
+  }
+
+  .menu a{
+    font-size: larger;
+    color: aliceblue;
+    text-decoration: none;
+  }
+
+  .tanim{
+      position:fixed;
+      right: 100px;
+      top: 200px;
+      height: 700px;
+      width: 500px;
+     }
+  .diviciresim{
+      height: 200px;     
+  }
+  .maket{
+      opacity: 0.8;
+    border-radius: 10%;
+      height: 100%;
+      width: 100%;
+      background-size: cover;
+      
+  }
+  .diviciresim h1{
+      color: aliceblue;
+     position: relative;
+     margin-left: 40%;
+}
+.diviciresim p{
+    font-family: cursive;
+    color: aliceblue;
+    text-indent: 20px;
+    font-size: 20px;
+}
