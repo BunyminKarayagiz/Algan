@@ -1,5 +1,5 @@
 body{
-    z-index: 2;
+    z-index: 1;
     background-image: url(Resimler/AKINCI.jpg);
 }
 .ustEkran{
@@ -15,9 +15,7 @@ body{
     height: 50px;
 }
 .logo{
-    opacity: 0.2;
-    margin-top: 10px;
-    height: 100px;
+    height: 180px;
     border-radius: 20%;
     float: left;
 }
@@ -33,37 +31,24 @@ body{
 .menu{
     float: left;
 }
-.menu li{
-    float: left;
-    position: relative;
-}
 .menu li {
-    border-radius: 3    0%;
-    text-decoration: none;
-  
-    border: none;
-  
     padding: 16px 32px;
   
     text-align: center;
   
-    font-size: 16px;
+    font-size: 17px;
   
-    margin: 4px 120px;
-  
+    margin:  30px 100px;
+
     opacity: 0.6;
   
-    transition: 0.3s;
-  
     display: inline-block;
-  
-    cursor: pointer;
   }
   .menu li :hover{
-    padding: 10px 32px;
+    border-radius: 30%;
+    padding: 10px;
     background-color:cornflowerblue
   }
-
   .menu a{
     font-size: larger;
     color: aliceblue;
